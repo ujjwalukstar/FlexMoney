@@ -1,6 +1,7 @@
-Yoga Class Admission System
-This is a MERN stack application for managing enrollments in monthly yoga classes. The system allows users to enroll in yoga classes, choose a batch, and pay monthly fees. It ensures that only individuals aged 18-65 can enroll and allows participants to switch batches every month.
+Yoga Class Admission System:-
 
+This is a MERN stack application for managing enrollments in monthly yoga classes. The system allows users to enroll in yoga classes, choose a batch, and pay monthly fees. It ensures that only individuals aged 18-65 can enroll and allows participants to switch batches every month.
+Deployed link : https://flexmoney-xcv0.onrender.com
 Features
 User Enrollment:
 
