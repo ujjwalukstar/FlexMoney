@@ -2,40 +2,27 @@ Yoga Class Admission System:-
 
 This is a MERN stack application for managing enrollments in monthly yoga classes. The system allows users to enroll in yoga classes, choose a batch, and pay monthly fees. It ensures that only individuals aged 18-65 can enroll and allows participants to switch batches every month.
 Deployed link : https://flexmoney-xcv0.onrender.com
+
 Features
 User Enrollment:
-
 Users can enroll in yoga classes by providing their name, age, and preferred batch.
-
 Only users aged between 18-65 are allowed to enroll.
 
 Batch Selection:
-
 Users can choose from 4 batches: 6-7AM, 7-8AM, 8-9AM, and 5-6PM.
-
 Users can switch batches every month but must stay in the same batch for the entire month.
 
 Monthly Payment:
-
 The monthly fee is ₹500 INR.
-
 Users can pay the fee at any time during the month.
 
-Admin Dashboard:
-
-Admins can view all enrollments and manage user data.
-
-Tech Stack
+Tech Stack:-
 Frontend: React.js
-
 Backend: Node.js, Express.js
-
 Database: MongoDB
-
 Other Tools: Mongoose (for MongoDB modeling), CORS, Dotenv
 
-Folder Structure
-Copy
+Folder Structure:-
 FlexMoney/
 ├── yoga-backend/               # Backend code
 │   ├── config/                 # Database configuration
@@ -50,7 +37,8 @@ FlexMoney/
 │   └── index.js                # Frontend entry point
 ├── package.json                # Root dependencies
 └── README.md                   # Project documentation
-ER Diagram
+
+ER Diagram:-
 The database consists of a single collection: Enrollments.
 
 Enrollment Schema
@@ -118,16 +106,11 @@ Payment Integration:
 *Integrate a payment gateway (e.g., Razorpay) for monthly fee payments.(will update later)
 
 User Authentication:
-
 Add user authentication for secure access.
 
 Batch Switching:
-
 Allow users to switch batches for the next month.
 
-Email Notifications:
-
-Send payment reminders and enrollment confirmations via email.
 
 Contributor
 Ujjwal
