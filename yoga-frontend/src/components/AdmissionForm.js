@@ -16,7 +16,7 @@ const AdmissionForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/enroll", formData);
+      const response = await axios.post("https://flexmoney-xcv0.onrender.com/api/enroll", formData);
       setMessage(response.data.message);
     } catch (error) {
       setMessage(error.response?.data?.message || "❌ Something went wrong.");

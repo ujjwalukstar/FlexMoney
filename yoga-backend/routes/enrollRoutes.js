@@ -12,7 +12,7 @@ router.post("/", async (req, res) => {
       return res.status(400).json({ message: "❌ Age must be between 18 and 65." });
     }
 
-    // Create new enrollment
+    // Created new enrollment
     const newEnrollment = new Enrollment({ name, age, batch });
     await newEnrollment.save();
     res.status(201).json({ message: "✅ Enrollment successful!" });
